@@ -1,5 +1,12 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isHome": {
+      "type": "identifier",
+      "selector": ".panel-title",
+      "control": "exists",
+      "selectContains": "Home"
+    }
+  },
   "connect": []
 }
