@@ -31,7 +31,9 @@
       "label": "errorMessage",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "#UserName",
+      "control": "property.innerText"
     },
     "submit": {
       "type": "action",
@@ -42,7 +44,8 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": ".btn.btn-primary.form-control"
     },
     "userErrorMessage": {
       "type": "string",
