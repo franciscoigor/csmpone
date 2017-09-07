@@ -41,6 +41,12 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "allsurveys"
+    },
+    {
+      "id": "survey",
+      "name": "survey",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
