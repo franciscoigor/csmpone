@@ -51,5 +51,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.allsurveys', {
+        views: {
+            app: {
+                controller: 'app_allsurveys',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.allsurveys');
+                }
+            }
+        }
     });
 });

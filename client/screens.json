@@ -34,6 +34,13 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "lowscore"
+    },
+    {
+      "id": "allsurveys",
+      "name": "allsurveys",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "allsurveys"
     }
   ],
   "sourceAppId": "_blank",
