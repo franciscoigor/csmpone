@@ -19,7 +19,9 @@
             "control": "property.innerText"
           },
           "facility": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 2
           },
           "status": {
             "type": "string"
