@@ -37,7 +37,9 @@
             "control": "property.innerText"
           },
           "islowscore": {
-            "type": "boolean"
+            "type": "boolean",
+            "selector": "td>a>span.fa-eye",
+            "control": "exists"
           }
         }
       },
