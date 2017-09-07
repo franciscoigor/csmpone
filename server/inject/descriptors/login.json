@@ -45,7 +45,8 @@
           "type": "string"
         }
       },
-      "selector": ".btn.btn-primary.form-control"
+      "selector": ".btn.btn-primary.form-control",
+      "control": "action.button"
     },
     "userErrorMessage": {
       "type": "string",
