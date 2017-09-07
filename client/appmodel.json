@@ -40,6 +40,12 @@
             "type": "string"
           }
         }
+      },
+      "userErrorMessage": {
+        "type": "string"
+      },
+      "passwordErrorMessage": {
+        "type": "string"
       }
     }
   }
