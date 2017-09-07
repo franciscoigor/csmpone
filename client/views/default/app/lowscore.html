@@ -17,7 +17,9 @@
                 <div data-comp-id="text.3" ng-bind="item.facility">Some text</div>
                 <div data-comp-id="text.4" ng-bind="item.status" style="font-size: 10px;">Some text</div>
                 <div data-comp-id="text.5" ng-bind="item.creationdate" style="font-size: 9px;">Some text</div>
-                <i class="icon ion-ios-arrow-right" data-comp-id="icon.1" style="font-size:32px"></i>
+                <i class="icon ion-ios-arrow-right" data-comp-id="icon.1"
+                    ng-click="app.action('lowscore', 'list[item].gotodetail', this)"
+                    style="font-size:32px"></i>
             </div>
         </ion-list>
     </ion-content>
