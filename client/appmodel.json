@@ -96,6 +96,9 @@
             },
             "islowscore": {
               "type": "boolean"
+            },
+            "gotodetail": {
+              "type": "action"
             }
           }
         },
