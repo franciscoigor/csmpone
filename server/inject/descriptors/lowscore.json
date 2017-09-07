@@ -25,7 +25,10 @@
             "control": "property.innerText"
           },
           "status": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 4,
+            "control": "property.innerText"
           },
           "creationdate": {
             "type": "string"
