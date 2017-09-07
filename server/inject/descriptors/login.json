@@ -52,7 +52,9 @@
       "type": "string",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": ".field-validation-error[data-valmsg-for=\"UserName\"]",
+      "control": "property.innerText"
     },
     "passwordErrorMessage": {
       "type": "string",
