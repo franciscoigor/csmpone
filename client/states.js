@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.lowscore', {
+        views: {
+            app: {
+                controller: 'app_lowscore',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.lowscore');
+                }
+            }
+        }
     });
 });
