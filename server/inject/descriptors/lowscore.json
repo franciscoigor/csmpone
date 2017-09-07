@@ -31,7 +31,10 @@
             "control": "property.innerText"
           },
           "creationdate": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 5,
+            "control": "property.innerText"
           },
           "islowscore": {
             "type": "boolean"
