@@ -32,7 +32,8 @@
       "id": "lowscore",
       "name": "lowscore",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "lowscore"
     }
   ],
   "sourceAppId": "_blank",
