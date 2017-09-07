@@ -13,5 +13,12 @@
       "control": "action.link"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isHome"
+      ],
+      "action": "linktoAllSurveys"
+    }
+  ]
 }
