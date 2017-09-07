@@ -66,8 +66,9 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": "title",
+      "control": "exists",
+      "selectContains": "CSMP Login"
     }
   },
   "connect": []
