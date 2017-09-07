@@ -61,7 +61,7 @@
       "update": {
         "type": "none"
       },
-      "selector": "body",
+      "selector": ".field-validation-error[data-valmsg-for=\"Password\"]",
       "control": "property.innerText"
     },
     "isLogin": {
