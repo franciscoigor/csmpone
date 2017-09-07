@@ -59,23 +59,31 @@
     "type": "object",
     "comment": "",
     "properties": {
-      "target": {
-        "type": "string"
-      },
-      "customer": {
-        "type": "string"
-      },
-      "facility": {
-        "type": "string"
-      },
-      "status": {
-        "type": "string"
-      },
-      "creationdate": {
-        "type": "string"
-      },
-      "islowscore": {
-        "type": "boolean"
+      "list": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "target": {
+              "type": "string"
+            },
+            "customer": {
+              "type": "string"
+            },
+            "facility": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "creationdate": {
+              "type": "string"
+            },
+            "islowscore": {
+              "type": "boolean"
+            }
+          }
+        }
       }
     }
   }
