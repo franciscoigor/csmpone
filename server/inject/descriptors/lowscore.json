@@ -40,6 +40,11 @@
             "type": "boolean",
             "selector": "td>a>span.fa-eye",
             "control": "exists"
+          },
+          "gotodetail": {
+            "type": "action",
+            "selector": "div",
+            "control": "property.innerHTML"
           }
         }
       },
