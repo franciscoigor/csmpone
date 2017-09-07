@@ -6,6 +6,11 @@
       "selector": ".panel-title",
       "control": "exists",
       "selectContains": "Home"
+    },
+    "linktoAllSurveys": {
+      "type": "action",
+      "selector": "a[href=\"/Survey/AllSurveys\"]",
+      "control": "action.link"
     }
   },
   "connect": []
