@@ -60,7 +60,9 @@
       "type": "string",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": ".field-validation-error[data-valmsg-for=\"Password\"]",
+      "control": "property.innerText"
     }
   },
   "connect": []
