@@ -45,7 +45,7 @@
           "type": "string"
         }
       },
-      "selector": ".btn.btn-primary.form-control",
+      "selector": "input[value=\"Log in\"]",
       "control": "action.button"
     },
     "userErrorMessage": {
@@ -66,9 +66,8 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "title",
-      "control": "exists",
-      "selectContains": "CSMP Login"
+      "selector": "input[value=\"Log in\"]",
+      "control": "exists"
     }
   },
   "connect": []
