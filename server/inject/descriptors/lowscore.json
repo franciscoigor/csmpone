@@ -43,8 +43,8 @@
           },
           "gotodetail": {
             "type": "action",
-            "selector": "div",
-            "control": "property.innerHTML"
+            "selector": "a[data-original-title=\"View answers\"]",
+            "control": "action.link"
           }
         }
       },
