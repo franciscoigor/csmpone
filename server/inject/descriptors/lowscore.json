@@ -13,7 +13,10 @@
             "control": "property.innerText"
           },
           "customer": {
-            "type": "string"
+            "type": "string",
+            "selector": "td",
+            "selectIndex": 1,
+            "control": "property.innerText"
           },
           "facility": {
             "type": "string"
