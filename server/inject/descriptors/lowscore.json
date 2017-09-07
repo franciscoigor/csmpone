@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "list": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string"
+          },
+          "customer": {
+            "type": "string"
+          },
+          "facility": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "creationdate": {
+            "type": "string"
+          },
+          "islowscore": {
+            "type": "boolean"
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      },
+      "selectorAll": "#SurveyTable tr"
+    }
+  },
+  "connect": []
+}
