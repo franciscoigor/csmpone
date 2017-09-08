@@ -54,7 +54,7 @@
       "selectorAll": "#SurveyTable>tbody tr"
     },
     "islowscore": {
-      "type": "string",
+      "type": "identifier",
       "selector": ".panel-title",
       "control": "exists",
       "selectContains": "List of Surveys"
