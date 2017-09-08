@@ -60,5 +60,14 @@
       "selectContains": "List of Surveys"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "islowscore"
+      ],
+      "screens": [
+        "lowscore"
+      ]
+    }
+  ]
 }
