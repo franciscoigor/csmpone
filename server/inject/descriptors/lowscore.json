@@ -56,7 +56,7 @@
     "islowscore": {
       "type": "string",
       "selector": ".panel-title",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "List of Surveys"
     }
   },
