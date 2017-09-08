@@ -52,6 +52,12 @@
         "type": "none"
       },
       "selectorAll": "#SurveyTable>tbody tr"
+    },
+    "islowscore": {
+      "type": "string",
+      "selector": ".panel-title",
+      "control": "property.innerText",
+      "selectContains": "List of Surveys"
     }
   },
   "connect": []
