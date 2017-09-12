@@ -33,6 +33,11 @@
       "type": "action",
       "selector": "input.btn[value=\"Log in\"]",
       "control": "action.button"
+    },
+    "isLogin": {
+      "type": "action",
+      "selector": "input.btn[value=\"Log in\"]",
+      "control": "exists"
     }
   },
   "connect": []
