@@ -30,7 +30,9 @@
       "control": "property.innerText"
     },
     "submit": {
-      "type": "action"
+      "type": "action",
+      "selector": "input.btn[value=\"Log in\"]",
+      "control": "action.button"
     }
   },
   "connect": []
