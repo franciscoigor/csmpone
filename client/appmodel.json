@@ -186,10 +186,22 @@
     "comment": "",
     "properties": {
       "username": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
       },
       "password": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
       },
       "message": {
         "type": "string"

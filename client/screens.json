@@ -53,7 +53,7 @@
       "name": "logintest",
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "universaltemplates",
-      "model": "logintest"
+      "model": "logintest2"
     }
   ],
   "sourceAppId": "_blank",
