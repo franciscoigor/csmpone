@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "e2e52439",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdlfravi"
+  "creatorId": "gdlfravi",
+  "id": "csmpone",
+  "previewImageURL": "/previews/e2e52439-csmpone/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/franciscoigor/csmpone",
+  "creatorName": "Francisco Aviles"
 }
