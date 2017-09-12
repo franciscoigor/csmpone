@@ -47,6 +47,13 @@
       "name": "survey",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "logintest",
+      "name": "logintest",
+      "sourceScreenId": "app.login.logincool",
+      "sourceAppId": "universaltemplates",
+      "model": "logintest"
     }
   ],
   "sourceAppId": "_blank",

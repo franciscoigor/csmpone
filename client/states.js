@@ -69,5 +69,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.logintest', {
+        views: {
+            app: {
+                controller: 'app_logintest',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.logintest');
+                }
+            }
+        }
     });
 });
