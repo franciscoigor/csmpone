@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "username": {
+      "type": "string",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      },
+      "selector": "#UserName",
+      "control": "text"
+    },
+    "password": {
+      "type": "string",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "message": {
+      "type": "string"
+    },
+    "submit": {
+      "type": "action"
+    }
+  },
+  "connect": []
+}
