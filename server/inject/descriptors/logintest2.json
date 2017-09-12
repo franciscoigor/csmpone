@@ -25,7 +25,9 @@
       "control": "text"
     },
     "message": {
-      "type": "string"
+      "type": "string",
+      "selector": ".validation-summary-errors",
+      "control": "property.innerText"
     },
     "submit": {
       "type": "action"
