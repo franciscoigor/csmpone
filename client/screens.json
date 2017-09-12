@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "csmpone",
-  "startScreen": "app.logintest",
+  "startScreen": "app.login",
   "screens": [
     {
       "id": "blank",
