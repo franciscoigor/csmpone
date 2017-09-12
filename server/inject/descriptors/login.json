@@ -32,7 +32,7 @@
       "update": {
         "type": "none"
       },
-      "selector": ".field-validation-error[data-valmsg-for=\"UserName\"]",
+      "selector": ".validation-summary-errors",
       "control": "property.innerText"
     },
     "submit": {
