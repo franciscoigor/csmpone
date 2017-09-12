@@ -180,5 +180,23 @@
         }
       }
     }
+  },
+  "logintest2": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "username": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "message": {
+        "type": "string"
+      },
+      "submit": {
+        "type": "action"
+      }
+    }
   }
 }
