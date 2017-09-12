@@ -20,7 +20,9 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "#Password",
+      "control": "text"
     },
     "message": {
       "type": "string"
