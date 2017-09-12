@@ -35,7 +35,7 @@
       "control": "action.button"
     },
     "isLogin": {
-      "type": "action",
+      "type": "identifier",
       "selector": "input.btn[value=\"Log in\"]",
       "control": "exists"
     }
